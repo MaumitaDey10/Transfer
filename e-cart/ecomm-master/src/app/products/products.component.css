@@ -1,0 +1,21 @@
+.offer{
+    position: absolute;
+top: 0;
+right: -1px;
+padding: 2px;
+}
+.offer p{
+background: #ED0612;
+border-radius: 100px 100px 100px 100px;
+text-align: center;
+line-height: 0em !important;
+font-size: 0.9em !important;
+padding: 7px;
+}
+.offer span{
+color: #fff;
+font-size: 11px;
+text-align: center;
+display: inline-block;
+font-weight: bold;
+}

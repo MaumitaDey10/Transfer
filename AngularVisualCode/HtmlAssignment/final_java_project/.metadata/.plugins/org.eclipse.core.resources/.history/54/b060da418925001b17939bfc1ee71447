@@ -1,0 +1,16 @@
+package com.example.dao;
+
+import com.link.quizproject.domain.Answer;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Zika
+ */
+public interface AnswerDAO extends EntityDAO<Answer>{
+    
+    public ArrayList<Answer> getAnswersByQuestionId(Integer id);
+    
+    
+    
+}

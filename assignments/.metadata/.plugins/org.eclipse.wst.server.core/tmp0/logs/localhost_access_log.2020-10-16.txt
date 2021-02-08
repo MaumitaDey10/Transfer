@@ -1,0 +1,6 @@
+127.0.0.1 - - [16/Oct/2020:19:37:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Oct/2020:19:37:53 +0530] "GET /JSPUserStory4/ControllerServlet HTTP/1.1" 200 600
+0:0:0:0:0:0:0:1 - - [16/Oct/2020:19:38:11 +0530] "POST /JSPUserStory4/ControllerServlet HTTP/1.1" 200 180
+127.0.0.1 - - [16/Oct/2020:19:48:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Oct/2020:19:48:52 +0530] "GET /JSPUserStory4/ControllerServlet HTTP/1.1" 200 617
+0:0:0:0:0:0:0:1 - - [16/Oct/2020:19:49:05 +0530] "POST /JSPUserStory4/ControllerServlet HTTP/1.1" 200 180

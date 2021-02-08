@@ -1,0 +1,46 @@
+{
+    "metamodel": {
+        
+        "name": "Test",
+        "sections": [
+            {
+                "title": "",
+                "class": "",
+                "properties": [
+                    {
+                        "id":"customer_username", 
+                        "type":"text", 
+                        "label":"USERNAME", 
+                        "alias":"editPersonal", 
+                        "class":"padding-none",
+                        "visible":true,
+                        "editable":true
+                    
+                     },
+            
+                    {
+                        "id":"customer_password", 
+                        "type":"password", 
+                        "placeholder":"PASSWORD", 
+                        "alias":"editPersonal", 
+                        "class":"padding-none",
+                        "visible":true,
+                        "editable":true
+   
+                    },
+                    {
+                        "id": "button",
+                        "type": "button",
+                        "label": "LOGIN",
+                        "method": "createLifesuiteQuote",
+                        "action": "create"
+                   
+                    }
+                  
+  ]
+        
+  }
+  
+  ]
+    }
+  }

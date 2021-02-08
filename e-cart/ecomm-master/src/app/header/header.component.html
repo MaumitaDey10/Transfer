@@ -1,0 +1,34 @@
+<nav class="navbar navbar-dark bg-light container-fluid">
+    <div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" (click)='onChangePage(1)'>Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)='onChangePage(2)'>About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)='onChangePage(3)'>Products</a>
+    </li>
+  
+    <li class="nav-item">
+      <a class="nav-link" (click)='onChangePage(4)'>Buy Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)='onChangePage(5)'>Contact Us</a>
+    </li>
+  
+  
+ 
+
+  
+  <div class="cart d-flex ml-5 mt-2" (click)='onChangePage(4)'>
+					
+    <span class="fa fa-shopping-cart my-cart-icon" style="cursor: pointer;"><span class="badge badge-notify my-cart-badge">
+    </span><span class="badge badge-danger">{{myInput2}}</span>
+</span>
+</div>
+
+</ul>
+</div>
+</nav>

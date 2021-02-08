@@ -1,0 +1,115 @@
+/*-- //to-top --*/
+.spec {
+    text-align: center;
+    margin-bottom: 3em;
+}
+.spec h3{
+    font-size:3em;
+	color:#000;
+	margin-bottom:0.5em;
+}
+.ser-t {
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    position: relative;
+}
+.ser-t b{
+	width: 100%;
+    height: 2px;
+    display: block;
+    background: #039445;
+    margin-bottom: 3px;
+}
+.ser-t b.line{
+	width: 80%;
+	margin:0 auto;
+}
+.ser-t  span{
+	width: 40px;
+    height: 40px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    left: 42%;  
+}
+.ser-t  span i{
+	width: 20px;height: 20px;
+    display: block;
+    border: 2px solid #039445;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+    margin-left: 0.7em;
+}
+/*--content--*/
+.content-top{
+	padding:4em 0 0;
+}
+
+
+
+.col-md,.col-md1,.col-md2,.col-md3{
+	position:relative;
+}
+.col-md1,.col-md2,.col-md3{
+	text-align:center;
+}
+.big-sale {
+    position: absolute;
+    top: 77px;
+    left: 20%;
+    border: 4px double #fff;
+    text-align: center;
+    transform: rotate(-45deg);
+    width: 210px;
+    height: 210px;
+}
+.big-sale1 {
+	transform: rotate(45deg);
+	margin: 3.5em 0 0;
+}
+.big-sale h3,.big-sa h3,.big-sale2 h3,.big-sale3 h3{
+	color:#fff;
+	font-size:3em;
+	margin-bottom: 0.3em;
+}
+.big-sa h3{
+	margin-bottom: 0.2em;
+}
+.big-sale h3 span,.big-sa h3 span,.big-sale2 h3 span,.big-sale3 h3 span{
+	color:#FAB005;
+}
+.big-sale p,.big-sa p,.big-sale2 p,.big-sale3 p{
+	color:#fff;
+	font-size:1em;
+	line-height:2em;
+}
+.big-sa h6{
+	color:#fff;
+	font-size:1em;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.big-sa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 9em;
+}
+.big-sale2,.big-sale3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 3em;
+}
+.col-md2 {
+    margin-bottom: 30px;
+}
+.content-mid {
+    padding: 6em 0;
+}
+

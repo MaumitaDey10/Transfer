@@ -1,0 +1,7 @@
+<app-header (pageChange)='onChangePage($event)' [myInput2]='parentValue' ></app-header>
+<app-home *ngIf='latestPage == 1'></app-home>
+<app-about-us *ngIf='latestPage == 2'></app-about-us>
+<app-products *ngIf='latestPage == 3' (emmiter)='getData($event)'></app-products>
+<app-buy-products  *ngIf='latestPage == 4'></app-buy-products>
+<app-contact-us *ngIf='latestPage == 5'></app-contact-us>
+<app-footer></app-footer>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:lang="http://www.springframework.org/schema/lang"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd">
+
+
+<bean id="e1" class="com.md.User" autowire="byName">
+<property name="model" value="72346"></property>
+<property name="price" value="7000"></property>
+<property name="colour" value="red"></property>
+</bean>
+
+
+<!-- <bean id="gps" class="com.md.Economic">
+</bean>
+ -->
+<bean id="gps" class="com.md.Sophisticated">
+</bean>
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class  name="com.sj.Employee"  table="emp_class" discriminator-value="employee">
+		<id  name="id"  type="int"  column="eid">
+		<generator class ="assigned"/>
+		</id>
+	<discriminator column ="emp_type" type="string"/>
+	<property name ="name">
+		<column name="ename"/>
+	</property>
+	<property name="sal">
+		<column name="esal"/>
+	</property>
+	<subclass name="com.sj.SalesPerson" discriminator-value="sales_person" >
+		<property  name="comm"  />
+	</subclass>
+	
+	
+	
+	
+	</class>
+</hibernate-mapping>

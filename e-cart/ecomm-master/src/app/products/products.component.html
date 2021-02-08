@@ -1,0 +1,62 @@
+<div class="text-center">
+  <h2 class="text-secondary">Buy Products</h2>
+</div>
+<div class="alert alert-light border d-flex align-item-center" *ngIf='addedProduct'>
+<strong class="text-success">{{addedProduct}}&nbsp;</strong> is Selected and Added in Cart
+<button class="btn btn-success ml-auto">Checkout</button>
+</div>
+<div class="row mt-5 ml-4">
+  
+<div class="col-3">
+    <div class="card" style="width: 16rem;">
+        <img class="card-img-top" src="../../assets/of2.png" alt="Card image cap">
+        <div class="offer"><p><span>Offer</span></p></div>
+        <div class="card-body">
+          <h6><a href="single.html">Kabuli Chana</a>(1 kg)</h6>	
+          <p ><label>$3.00</label></p> 
+          <a class="btn btn-primary text-white" (click)="onSelectProduct('Kabuli Chana')">Select This product</a>
+        </div>
+      </div>
+</div>
+
+<div class="col-3">
+    <div class="card" style="width: 16rem;">
+        <img class="card-img-top" src="../../assets/of3.png" alt="Card image cap">
+        <div class="offer"><p><span>Offer</span></p></div>
+        <div class="card-body">
+          <h6><a href="single.html">Soya Chunks</a>(1 kg)</h6>	
+          <p ><label>$3.50</label></p> 
+          <a class="btn btn-primary text-white" (click)="onSelectProduct('Soya Chunks')">Select This product</a>
+        </div>
+      </div>
+</div>
+
+<div class="col-3">
+    <div class="card" style="width: 16rem;">
+        <img class="card-img-top" src="../../assets/of4.png" alt="Card image cap">
+        <div class="offer"><p><span>Offer</span></p></div>
+        <div class="card-body">
+          <h6><a href="single.html">Lays</a>(100 g)</h6>	
+          <p ><label>$0.70</label></p> 
+          <a class="btn btn-primary text-white" (click)="onSelectProduct('Lays')">Select This product</a>
+        </div>
+      </div>
+</div>
+
+<div class="col-3">
+    <div class="card" style="width: 16rem;">
+        <img class="card-img-top" src="../../assets/of5.png" alt="Card image cap">
+        <div class="offer"><p><span>Offer</span></p></div>
+        <div class="card-body">
+          <h6><a href="single.html">Kurkure</a>(100 g)</h6>	
+          <p ><label>$0.60</label></p> 
+           <a class="btn btn-primary text-white" (click)="onSelectProduct('Kurkure')">Select This product</a>
+        </div>
+      </div>
+</div>
+
+<app-add-product class="w-100" [productSelected]='proSelected'
+ [selectedProduct]='selProduct' (addedProduct)='onAddedProduct($event)' (emmiter)='count($event)'></app-add-product>
+
+
+</div>

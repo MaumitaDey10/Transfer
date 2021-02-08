@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightsalmon;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome To National Book Library</h1>
+  <p>We are excited that you are showing interest in our website</p>
+</div>
+
+<div class="topnav">
+  <a href="login.html">Log In</a>
+  <a href="signup.html">Sign Up</a>
+  <a href="updatebookform.html">Update Book Details</a>
+  <a href="showallbooks.html">ShowAll Books</a>
+
+  
+  
+  
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>WELCOME!!</h2>
+    <p>We are glad that you are showing interest to visit books...</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Want To Explore More?</h2>
+    <p>What are you thinking?Want to gain more knowledge ?Don't Worry!!We are here to help you out!!Please log in ..If you are a new user please register!! </p>
+    <p>In this website there are more than 3000 books are available!!TRY IT NOW!!</p>
+  </div>
+  
+  <div class="column side">
+    <h2>Explore More!!</h2>
+    <p>For more exploration please login or register today..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>mail us at maumitad28@gmail.com</p>
+</div>
+  
+</body>
+</html>
